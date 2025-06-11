@@ -1,0 +1,649 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\Wolvenkit Depot",
+  "Materials": [
+    {
+      "Name": "w_rifle_precision__midnight_sor22__mag_std_01_default_masksset",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_masksset.mlmask",
+        "MultilayerSetup": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "w_rifle_precision__midnight_sor22__mag_std_01_default_masksset_tpp",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\tpp\\w_rifle_precision__midnight_sor22__mag_stdr_01_n01.xbm",
+        "MultilayerMask": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_maskssettpp.mlmask",
+        "MultilayerSetup": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "military1",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_masksset.mlmask",
+        "MultilayerSetup": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_military1.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "military1_tpp",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\tpp\\w_rifle_precision__midnight_sor22__mag_stdr_01_n01.xbm",
+        "MultilayerMask": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_maskssettpp.mlmask",
+        "MultilayerSetup": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_military1.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "pimp2",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_masksset.mlmask",
+        "MultilayerSetup": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_pimp2.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "pimp2_tpp",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\tpp\\w_rifle_precision__midnight_sor22__mag_stdr_01_n01.xbm",
+        "MultilayerMask": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_maskssettpp.mlmask",
+        "MultilayerSetup": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_pimp2.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    }
+  ],
+  "TexturesList": [
+    "engine\\materials\\defaults\\multilayer_default.mlmask",
+    "engine\\materials\\defaults\\ml_default_microblend.xbm",
+    "engine\\materials\\defaults\\ml_default_d.xbm",
+    "engine\\materials\\defaults\\ml_default_n.xbm",
+    "engine\\materials\\defaults\\ml_default_rm.xbm",
+    "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_masksset.mlmask",
+    "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\tpp\\w_rifle_precision__midnight_sor22__mag_stdr_01_n01.xbm",
+    "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_maskssettpp.mlmask",
+    "base\\surfaces\\materials\\metal\\enameled_hq\\enameled_hq_01_30_n.xbm",
+    "base\\surfaces\\materials\\metal\\enameled_metal\\enameled_metal_clean_01_30_r.xbm",
+    "base\\surfaces\\materials\\default\\white.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_rough_01_300_d.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_n.xbm",
+    "base\\surfaces\\microblends\\concrete_wear.xbm",
+    "base\\surfaces\\microblends\\scratches_random_02.xbm",
+    "base\\surfaces\\microblends\\fingerprints1.xbm",
+    "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_hq\\plastic_tech_hq_01_30_n.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_tech\\plastic_tech_01_300_r.xbm",
+    "base\\surfaces\\microblends\\scratches_horizontal_01.xbm",
+    "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_d.xbm",
+    "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_n.xbm",
+    "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_r.xbm"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "w_rifle_precision__midnight_sor22__mag_std_01_default_masksset",
+      "w_rifle_precision__midnight_sor22__mag_std_01_default_masksset_tpp"
+    ],
+    "military11": [
+      "military1",
+      "military1_tpp"
+    ],
+    "pimp22": [
+      "pimp2",
+      "pimp2_tpp"
+    ]
+  }
+}

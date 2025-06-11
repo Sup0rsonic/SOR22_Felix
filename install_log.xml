@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstalLog Project="SOR22 Felix Arms Custom" Build_date="6/12/2025 3:31:46 AM">
+  <Files>
+    <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive">
+      <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive\pc">
+        <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive\pc\mod">
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive\pc\mod\SOR22 Felix Arms Custom.archive</file>
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\archive\pc\mod\sor22_felix.archive.xl</file>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6">
+      <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks">
+        <Directory Path="D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\sor22_felix_collection">
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\sor22_felix_collection\items.sor22_felix.yaml</file>
+          <file>D:\SteamLibrary\steamapps\common\Cyberpunk 2077\r6\tweaks\sor22_felix_collection\Items.w_rifle_precision__midnight_sor22__rcv1.yaml</file>
+        </Directory>
+      </Directory>
+    </Directory>
+  </Files>
+</InstalLog>

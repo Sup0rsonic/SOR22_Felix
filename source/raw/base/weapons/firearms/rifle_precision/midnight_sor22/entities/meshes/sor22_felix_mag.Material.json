@@ -1,0 +1,220 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\Wolvenkit Depot",
+  "Materials": [
+    {
+      "Name": "felix_mag",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_masksset.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "felix_mag_tpp",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\tpp\\w_rifle_precision__midnight_sor22__mag_stdr_01_n01.xbm",
+        "MultilayerMask": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_maskssettpp.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    }
+  ],
+  "TexturesList": [
+    "engine\\textures\\editor\\normal.xbm",
+    "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__mag_std_01_default_masksset.mlmask"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "felix_mag",
+      "felix_mag_tpp"
+    ]
+  }
+}

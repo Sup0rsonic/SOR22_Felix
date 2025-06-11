@@ -1,0 +1,255 @@
+Items.Sor22_Felix:
+  $base: Items.Preset_Sor22_Default
+  appearanceResourceName: felix_sor22_appfile
+  ammo: Ammo.RifleAmmo
+  baseEmptyReloadTime: 2.5999999
+  baseReloadTime: 2.5999999
+  effectiveRangeFalloffCurve: SniperRifleFalloff
+  evolution: WeaponEvolution.Power
+  forcedMinHitReaction: -1
+  fxPackage: WeaponFxPackage.PowerLargeCaliber
+  hudIcon: HUDWeaponIcons.Sor22
+  manufacturer: WeaponManufacturer.Corporation
+  primaryTriggerMode: TriggerMode.Semi
+  triggerModes:
+    - TriggerMode.Semi
+  displayName: LocKey("MC_gun_name")
+  localizedDescription: LocKey("MC_gun_description")
+  variants: []
+  visualTags:
+    - felix
+  effectors: []
+  objectActions:
+    - ItemAction.Drop
+    - ItemAction.Disassemble
+    - ItemAction.WeaponDisassemble
+  statModifierGroups:
+    - !append-once Items.IconicQualityRandomization
+    - !append-once StatGroups.SOR22_Felix_Aim_Stats
+    - !append-once StatGroups.SOR22_Felix_Damage_Stats
+    - !append-once StatGroups.SOR22_Felix_Range_Stats
+    - !append-once StatGroups.SOR22_Felix_Recoil_Stats
+    - !append-once StatGroups.SOR22_Felix_Attack_Speed_Stats
+  statModifiers:
+    - !append-once Quality.IconicItem # makes the weapon iconic
+  slotPartList:
+    - !append-once Items.Sor22_Felix_inline2 # Receiver
+    - !append-once Items.Sor22_Felix_inline4 # Base
+    - !append-once Items.Sor22_Felix_inline6 # Magazine
+    - !append-once Items.Sor22_Felix_inline8 # Reload
+  slotPartListPreset:
+    - !append-once Items.Preset_Felix_Sor22_inline0 # Receiver
+    - !append-once Items.Preset_Felix_Sor22_inline1 # Base
+    - !append-once Items.Preset_Felix_Sor22_inline2 # Magazine
+    - !append-once Items.Preset_Felix_Sor22_inline3 # Reload
+  statPools: []
+  blueprint: Items.Iconic_Ranged_Weapon_Blueprint # blueprint decides what kind of attachments/mods are allowed on a weapon
+  weakspots: []
+  position: {x: 0, y: 0, z: 0}
+  price: Items.Base_Sor22_inline0
+  hide_nametag: True
+
+# Presets
+Items.Preset_Felix_Sor22_inline0:
+  $type: gamedataSlotItemPartPreset_Record
+  itemPartPreset: Items.Sor22_Felix_Receiver
+  slot: AttachmentSlots.Receiver
+  itemPartList: []
+
+Items.Preset_Felix_Sor22_inline1:
+  $type: gamedataSlotItemPartPreset_Record
+  itemPartPreset: Items.Sor22_Felix_Base
+  slot: AttachmentSlots.Barrel
+  itemPartList: []
+
+Items.Preset_Felix_Sor22_inline2:
+  $type: gamedataSlotItemPartPreset_Record
+  itemPartPreset: Items.Sor22_Felix_Mag
+  slot: AttachmentSlots.Magazine
+  itemPartList: []
+
+Items.Preset_Felix_Sor22_inline3:
+  $type: gamedataSlotItemPartPreset_Record
+  itemPartPreset: Items.Sor22_Felix_Mag_Reload
+  slot: AttachmentSlots.MagazineEmpty
+  itemPartList: []
+
+# Inline3: RCV1
+# Inline5: Base
+# Inline7: mag_std
+# Inline9: reload
+
+### BARREL (BASE1) ###
+Items.Sor22_Felix_Base:
+  $base: Items.w_rifle_precision__midnight_sor22__base1 # Tweak Record for the Barrel of the weapon
+  appearanceResourceName: felix_sor22_base_appfile # Name of your .app file as registered at the factory.csv
+
+Items.Sor22_Felix_inline5:
+  $type: gamedataItemPartListElement_Record
+  item: Items.Sor22_Felix_Base
+  weight: 1
+  statModifierWeight: []
+
+Items.Sor22_Felix_inline4:
+  $type: gamedataSlotItemPartListElement_Record
+  optionalProbabilityCurveName: ''
+  slot: AttachmentSlots.Barrel
+  itemPartList:
+    - Items.Sor22_Felix_inline5
+
+
+### RECEIVER (RCV1) ###
+Items.Sor22_Felix_Receiver:
+  $base: Items.w_rifle_precision__midnight_sor22__rcv1 # Tweak Record for the Barrel of the weapon
+  appearanceResourceName: felix_sor22_receiver_appfile # Name of your .app file as registered at the factory.csv
+
+Items.Sor22_Felix_inline3:
+  $type: gamedataItemPartListElement_Record
+  item: Items.Sor22_Felix_Receiver
+  weight: 1
+  statModifierWeight: []
+
+Items.Sor22_Felix_inline2:
+  $type: gamedataSlotItemPartListElement_Record
+  optionalProbabilityCurveName: ''
+  slot: AttachmentSlots.Receiver
+  itemPartList:
+    - Items.Sor22_Felix_inline3
+
+
+### MAG(MAG_STD) ###
+Items.Sor22_Felix_Mag:
+  $base: Items.w_rifle_precision__midnight_sor22__mag_std # Tweak Record for the Barrel of the weapon
+  appearanceResourceName: felix_sor22_mag_appfile # Name of your .app file as registered at the factory.csv
+
+Items.Sor22_Felix_inline7:
+  $type: gamedataItemPartListElement_Record
+  item: Items.Sor22_Felix_Mag
+  weight: 1
+  statModifierWeight: []
+
+Items.Sor22_Felix_inline6:
+  $type: gamedataSlotItemPartListElement_Record
+  optionalProbabilityCurveName: ''
+  slot: AttachmentSlots.Magazine
+  itemPartList:
+    - Items.Sor22_Felix_inline7
+
+
+
+### MAG(MAG_STDR) ###
+Items.Sor22_Felix_Mag_Reload:
+  $base: Items.w_rifle_precision__midnight_sor22__mag_stdr # Tweak Record for the Barrel of the weapon
+  appearanceResourceName: felix_sor22_mag_reload_appfile # Name of your .app file as registered at the factory.csv
+
+Items.Sor22_Felix_inline9:
+  $type: gamedataItemPartListElement_Record
+  item: Items.Sor22_Felix_Mag
+  weight: 1
+  statModifierWeight: []
+
+Items.Sor22_Felix_inline8:
+  $type: gamedataSlotItemPartListElement_Record
+  optionalProbabilityCurveName: ''
+  slot: AttachmentSlots.Magazine
+  itemPartList:
+    - Items.Sor22_Felix_inline7
+
+
+# BaseStats.AttackSpeed
+StatGroups.SOR22_Felix_Attack_Speed_Stats:
+  $type: gamedataStatModifierGroup_Record
+  statModifiers:
+  - $type: gamedataConstantStatModifier_Record
+    modifierType: Multiplier
+    statType: BaseStats.CycleTimeBase # damage multiplier for headshots
+    value: 0.1
+
+# Damage stats for Hand of Midas
+StatGroups.SOR22_Felix_Damage_Stats:
+  $type: gamedataStatModifierGroup_Record
+  statModifiers:
+  - $type: ConstantStatModifier
+    modifierType: Additive
+    statType: BaseStats.HeadshotDamageMultiplier # damage multiplier for headshots
+    value: 1.0
+  - $type: gamedataConstantStatModifier_Record
+    value: 1.5
+    modifierType: Multiplier
+    statType: BaseStats.DPS
+  - $type: gamedataConstantStatModifier_Record
+    value: 1.0
+    modifierType: Multiplier
+    statType: BaseStats.HeadshotCritChance # crit change on headshots
+
+
+# Range stats for Hand of Midas
+StatGroups.SOR22_Felix_Range_Stats:
+  $type: gamedataStatModifierGroup_Record
+  statModifiers:
+  - $type: gamedataConstantStatModifier_Record
+    value: 1.5
+    modifierType: Multiplier
+    statType: BaseStats.EffectiveRange # range beyond which damage drop off begins
+  - $type: gamedataConstantStatModifier_Record
+    value: 2
+    modifierType: Multiplier
+    statType: BaseStats.MaximumRange # range beyond which bullet will despawn
+
+# Aim/Zoom related stats for Hand of Midas
+StatGroups.SOR22_Felix_Aim_Stats:
+  $type: gamedataStatModifierGroup_Record
+  statModifiers:
+  - $type: gamedataConstantStatModifier_Record
+    value: 1.5
+    modifierType: Multiplier
+    statType: BaseStats.ZoomLevel # zoom level of a weapon
+  - $type: gamedataConstantStatModifier_Record
+    value: 0
+    modifierType: Additive
+    statType: BaseStats.AimFOV # FOV when aiming (Illusion of zoom)
+
+# Recoil related stats for Hand of Midas
+StatGroups.SOR22_Felix_Recoil_Stats:
+  $type: gamedataStatModifierGroup_Record
+  statModifiers:
+  - $type: gamedataConstantStatModifier_Record
+    value: 0.01
+    modifierType: Multiplier
+    statType: BaseStats.RecoilTime # time taken by gun to reach the recoil distance
+  - $type: gamedataConstantStatModifier_Record
+    value: 0.35
+    modifierType: Multiplier
+    statType: BaseStats.RecoilKickMin # minimum sway on camera/gun on shooting
+  - $type: gamedataConstantStatModifier_Record
+    value: 0.78
+    modifierType: Multiplier
+    statType: BaseStats.RecoilKickMax # maximum sway on camera/gun on shooting
+  - $type: gamedataConstantStatModifier_Record
+    value: 2.0
+    modifierType: Multiplier
+    statType: BaseStats.RecoilDelay # crit change on headshots
+  - $type: gamedataConstantStatModifier_Record
+    value: 1.0
+    modifierType: Multiplier
+    statType: BaseStats.RecoilRecoveryTime # time taken to return to normal position after recoil
+
+StatGroups.SOR22_Felix_BurstFire:
+  $type: gamedataStatModifierGroup_Record
+  statModifiers:
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.shotsPerBurst
+      modifierType: Additive
+      value: 2
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.BurstFireInterval
+      modifierType: Additive
+      value: 0.08    # 80ms between shots
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.AmmoPerShot
+      modifierType: Additive
+      value: 1       # 1 per shot = 2 per burst
+    - $type: gamedataConstantStatModifier_Record
+      statType: BaseStats.CycleTime_Burst
+      modifierType: Additive
+      value: 0.3     # time between trigger pulls

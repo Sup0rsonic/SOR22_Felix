@@ -1,0 +1,5 @@
+factories:
+  - base\factory\felix_arms.csv
+localization:
+  onscreens:
+    en-us: sor22_felix_collection\localization\en-us.json

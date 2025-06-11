@@ -1,0 +1,331 @@
+{
+  "Header": {
+    "MaterialJsonVersion": "1.0.0"
+  },
+  "MaterialRepo": "D:\\Wolvenkit Depot",
+  "Materials": [
+    {
+      "Name": "felix_base",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__base1_01_default_masksset.mlmask",
+        "MultilayerSetup": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\sor22_felix_base.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "felix_base_tpp",
+      "BaseMaterial": "engine\\materials\\multilayered.mt",
+      "MaterialTemplate": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\tpp\\w_rifle_precision__midnight_sor22__base1_01_n01.xbm",
+        "MultilayerMask": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__base1_01_default_maskssettpp.mlmask",
+        "MultilayerSetup": "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\sor22_felix_base.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "ironsightsemmisive",
+      "BaseMaterial": "engine\\materials\\metal_base.remt",
+      "MaterialTemplate": "engine\\materials\\metal_base.remt",
+      "EnableMask": false,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 0.100482,
+          "Y": 0.088428,
+          "Z": 0.088428,
+          "W": 1
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 0.671052992,
+        "RoughnessBias": 0.450657994,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.0744189993,
+        "Emissive": "base\\weapons\\common\\textures\\w_common_ironsights_emmisive_d01.xbm",
+        "EmissiveLift": -0.473684013,
+        "EmissiveEV": 3.3488369,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 136,
+          "Green": 255,
+          "Blue": 142,
+          "Alpha": 255
+        },
+        "LayerTile": 0.100000001
+      }
+    }
+  ],
+  "TexturesList": [
+    "engine\\textures\\editor\\normal.xbm",
+    "engine\\materials\\defaults\\multilayer_default.mlmask",
+    "engine\\materials\\defaults\\ml_default_microblend.xbm",
+    "engine\\materials\\defaults\\ml_default_d.xbm",
+    "engine\\materials\\defaults\\ml_default_n.xbm",
+    "engine\\materials\\defaults\\ml_default_rm.xbm",
+    "base\\surfaces\\microblends\\default.xbm",
+    "base\\surfaces\\materials\\wood\\ebony\\ebony_irregular_01_300_d.xbm",
+    "base\\surfaces\\materials\\default\\default_n.xbm",
+    "base\\surfaces\\materials\\wood\\wood_generic\\wood_generic_01_300_r.xbm",
+    "base\\surfaces\\materials\\default\\black.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_d.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic_hq\\metal_generic_hq_01_30_n.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_bare_01_300_r.xbm",
+    "base\\surfaces\\materials\\default\\white.xbm",
+    "base\\surfaces\\materials\\default\\default_d.xbm",
+    "base\\surfaces\\materials\\metal\\enameled_hq\\enameled_hq_01_30_n.xbm",
+    "base\\surfaces\\materials\\metal\\steel_hq\\steel_hq_noise_01_10_r.xbm",
+    "base\\surfaces\\materials\\common\\plastic_common_01_300_d.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_hq\\plastic_tech_hq_01_30_n.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_tech\\plastic_tech_01_300_r.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_brushed_01_300_n.xbm",
+    "base\\surfaces\\materials\\metal\\metal_generic\\metal_generic_brushed_01_300_r.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_pattern\\plastic_pattern_squiggle_01_30_n.xbm",
+    "base\\surfaces\\materials\\plastic\\plastic_pattern\\plastic_pattern_squiggle_01_30_r.xbm",
+    "base\\surfaces\\microblends\\concrete_wear.xbm",
+    "base\\surfaces\\microblends\\scratches_and_flakes_a.xbm",
+    "base\\surfaces\\microblends\\fingerprints1.xbm",
+    "base\\surfaces\\microblends\\scratches_horizontal_01.xbm",
+    "base\\surfaces\\microblends\\dirt_stains.xbm",
+    "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_d.xbm",
+    "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_n.xbm",
+    "base\\surfaces\\materials\\ground\\dirt_universal\\dirt_universal_01_300_r.xbm",
+    "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__base1_01_default_masksset.mlmask",
+    "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\tpp\\w_rifle_precision__midnight_sor22__base1_01_n01.xbm",
+    "base\\weapons\\firearms\\rifle_precision\\midnight_sor22\\entities\\meshes\\textures\\w_rifle_precision__midnight_sor22__base1_01_default_maskssettpp.mlmask",
+    "engine\\textures\\editor\\grey.xbm",
+    "engine\\textures\\editor\\black.xbm",
+    "engine\\textures\\editor\\white.xbm",
+    "base\\weapons\\common\\textures\\w_common_ironsights_emmisive_d01.xbm"
+  ],
+  "MaterialTemplates": [
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\multilayered.mt",
+      "EnableMask": false,
+      "Data": {
+        "GlobalNormal": "engine\\textures\\editor\\normal.xbm",
+        "MultilayerMask": "engine\\materials\\defaults\\multilayer_default.mlmask",
+        "MultilayerSetup": "engine\\materials\\defaults\\multilayer_default.mlsetup",
+        "GlobalNormalIntensity": 1,
+        "GlobalNormalUVScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 0,
+          "W": 0
+        },
+        "GlobalNormalUVBias": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskAtlas": "",
+        "MaskTiles": null,
+        "Layers": null,
+        "LayersStartIndex": 0,
+        "SurfaceTexAspectRatio": 0,
+        "MaskToTileScale": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskTileSize": 0,
+        "MaskAtlasDims": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "MaskBaseResolution": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0,
+          "W": 0
+        },
+        "SetupLayerMask": 0,
+        "NormalsTextureDDXYMultiplier": 1,
+        "MicroblendsTextureDDXYMultiplier": 1
+      }
+    },
+    {
+      "Name": "engine\\materials\\metal_base.remt",
+      "EnableMask": true,
+      "Data": {
+        "BaseColor": "engine\\textures\\editor\\grey.xbm",
+        "BaseColorScale": {
+          "X": 1,
+          "Y": 1,
+          "Z": 1,
+          "W": 0
+        },
+        "Metalness": "engine\\textures\\editor\\black.xbm",
+        "MetalnessScale": 1,
+        "MetalnessBias": 0,
+        "Roughness": "engine\\textures\\editor\\white.xbm",
+        "RoughnessScale": 1,
+        "RoughnessBias": 0,
+        "Normal": "engine\\textures\\editor\\normal.xbm",
+        "NormalStrength": 1,
+        "AlphaThreshold": 0.379999995,
+        "Emissive": "engine\\textures\\editor\\black.xbm",
+        "EmissiveLift": 0,
+        "EmissiveEV": 0,
+        "EmissiveEVRaytracingBias": 0,
+        "EmissiveDirectionality": 0,
+        "EnableRaytracedEmissive": 1,
+        "EmissiveColor": {
+          "Red": 0,
+          "Green": 0,
+          "Blue": 0,
+          "Alpha": 255
+        },
+        "LayerTile": 1
+      }
+    }
+  ],
+  "Appearances": {
+    "default0": [
+      "felix_base",
+      "ironsightsemmisive",
+      "felix_base_tpp"
+    ]
+  }
+}
