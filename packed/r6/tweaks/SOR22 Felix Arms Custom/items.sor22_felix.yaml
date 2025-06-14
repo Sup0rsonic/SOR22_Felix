@@ -1,53 +1,61 @@
-Items.Sor22_Felix:
+items.Sor22_Felix:
   $base: Items.Preset_Sor22_Default
   appearanceResourceName: felix_sor22_appfile
-  ammo: Ammo.RifleAmmo
-  baseEmptyReloadTime: 2.5999999
-  baseReloadTime: 2.5999999
+  $type: gamedataWeaponItem_Record
+  ammo: Ammo.SniperRifleAmmo
   effectiveRangeFalloffCurve: SniperRifleFalloff
-  evolution: WeaponEvolution.Power
-  forcedMinHitReaction: -1
-  fxPackage: WeaponFxPackage.PowerLargeCaliber
-  hudIcon: HUDWeaponIcons.Sor22
-  manufacturer: WeaponManufacturer.Corporation
-  primaryTriggerMode: TriggerMode.Semi
-  triggerModes:
-    - TriggerMode.Semi
+  baseEmptyReloadTime: 2.5999999
   displayName: LocKey("MC_gun_name")
-  localizedDescription: LocKey("MC_gun_description")
-  variants: []
+  baseReloadTime: 2.5999999
+  damageType: DamageTypes.Physical
+  evolution: WeaponEvolution.Power
+  hudIcon: HUDWeaponIcons.Sor22
+  previewEffectName: weaponPreview
+  previewEffectTag: ricochet
+  primaryTriggerMode: TriggerMode.SemiAuto
+  projectileEaseOutCurveName: ProjectileEaseOut
+  rangedAttacks: Attacks.PowerRoundsBulletPackage
+  crosshair: Crosshairs.Tech_Hex
+  icon: UIIcon.ItemIcon
+  iconPath: ''
+  quality: Quality.Iconic
+  tags:
+    - !append-once IconicWeapon
   visualTags:
     - felix
-  effectors: []
-  objectActions:
-    - ItemAction.Drop
-    - ItemAction.Disassemble
-    - ItemAction.WeaponDisassemble
+  statModifiers: # stats for a weapon - reload time/aim speed/magazine size/recoil kick/damage per second/etc.
+    - !append-once Quality.IconicItem # makes the weapon iconic
+  triggerModes:
+    - TriggerMode.SemiAuto
+  gameplayRestrictions:
+    - GameplayRestriction.VehicleCombatNoInterruptions
+  localizedDescription: LocKey("MC_gun_description")
+  slotPartList:
+    - Items.Base_Sor22_inline2
+    - Items.Base_Sor22_inline4
+    - Items.Base_Sor22_inline6
+    - Items.Base_Sor22_inline8
+    - Items.RiflePossibleScopesList
+  slotPartListPreset:
+    - Items.Preset_Sor22_Default_inline0
+    - Items.Preset_Sor22_Default_inline1
+    - Items.Preset_Sor22_Default_inline2
+    - Items.Preset_Sor22_Default_inline3
+    - Items.RifleScopesPartList
+    - Items.Preset_Sor22_Default_inline4
+    - Items.Preset_Sor22_Default_inline5
+  variants: []
   statModifierGroups:
     - !append-once Items.IconicQualityRandomization
     - !append-once StatGroups.SOR22_Felix_Aim_Stats
     - !append-once StatGroups.SOR22_Felix_Damage_Stats
     - !append-once StatGroups.SOR22_Felix_Range_Stats
+    - !append-once StatGroups.SOR22_Felix_ClipSize
     - !append-once StatGroups.SOR22_Felix_Recoil_Stats
     - !append-once StatGroups.SOR22_Felix_Attack_Speed_Stats
-  statModifiers:
-    - !append-once Quality.IconicItem # makes the weapon iconic
-  slotPartList:
-    - !append-once Items.Sor22_Felix_inline2 # Receiver
-    - !append-once Items.Sor22_Felix_inline4 # Base
-    - !append-once Items.Sor22_Felix_inline6 # Magazine
-    - !append-once Items.Sor22_Felix_inline8 # Reload
-  slotPartListPreset:
-    - !append-once Items.Preset_Felix_Sor22_inline0 # Receiver
-    - !append-once Items.Preset_Felix_Sor22_inline1 # Base
-    - !append-once Items.Preset_Felix_Sor22_inline2 # Magazine
-    - !append-once Items.Preset_Felix_Sor22_inline3 # Reload
-  statPools: []
-  blueprint: Items.Iconic_Ranged_Weapon_Blueprint # blueprint decides what kind of attachments/mods are allowed on a weapon
-  weakspots: []
-  position: {x: 0, y: 0, z: 0}
-  price: Items.Base_Sor22_inline0
-  hide_nametag: True
+  visualTags:
+    - Default
+  effectors: []
 
 # Presets
 Items.Preset_Felix_Sor22_inline0:
@@ -171,6 +179,10 @@ StatGroups.SOR22_Felix_Damage_Stats:
   statModifiers:
   - $type: ConstantStatModifier
     modifierType: Additive
+    statType: BaseStats.BaseDamage # damage multiplier for headshots
+    value: 125
+  - $type: ConstantStatModifier
+    modifierType: Additive
     statType: BaseStats.HeadshotDamageMultiplier # damage multiplier for headshots
     value: 1.0
   - $type: gamedataConstantStatModifier_Record
@@ -196,6 +208,14 @@ StatGroups.SOR22_Felix_Range_Stats:
     modifierType: Multiplier
     statType: BaseStats.MaximumRange # range beyond which bullet will despawn
 
+StatGroups.SOR22_Felix_ClipSize:
+  $type: gamedataStatModifierGroup_Record
+  statModifiers:
+    - $type: gamedataConstantStatModifier_Record
+      modifierType: Additive
+      statType: BaseStats.MagazineCapacity
+      value: -2
+
 # Aim/Zoom related stats for Hand of Midas
 StatGroups.SOR22_Felix_Aim_Stats:
   $type: gamedataStatModifierGroup_Record
@@ -214,23 +234,23 @@ StatGroups.SOR22_Felix_Recoil_Stats:
   $type: gamedataStatModifierGroup_Record
   statModifiers:
   - $type: gamedataConstantStatModifier_Record
-    value: 0.01
+    value: 0.005
     modifierType: Multiplier
     statType: BaseStats.RecoilTime # time taken by gun to reach the recoil distance
   - $type: gamedataConstantStatModifier_Record
-    value: 0.35
+    value: 0.75
     modifierType: Multiplier
     statType: BaseStats.RecoilKickMin # minimum sway on camera/gun on shooting
   - $type: gamedataConstantStatModifier_Record
-    value: 0.78
+    value: 1.75
     modifierType: Multiplier
     statType: BaseStats.RecoilKickMax # maximum sway on camera/gun on shooting
   - $type: gamedataConstantStatModifier_Record
-    value: 2.0
+    value: 2.865
     modifierType: Multiplier
     statType: BaseStats.RecoilDelay # crit change on headshots
   - $type: gamedataConstantStatModifier_Record
-    value: 1.0
+    value: 0.01
     modifierType: Multiplier
     statType: BaseStats.RecoilRecoveryTime # time taken to return to normal position after recoil
 

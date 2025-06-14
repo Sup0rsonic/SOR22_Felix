@@ -1,0 +1,41 @@
+{
+  "Header": {
+    "WolvenKitVersion": "8.16.1",
+    "WKitJsonVersion": "0.0.9",
+    "GameVersion": 2200,
+    "ExportedDateTime": "2025-06-12T09:55:33.4810236Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "D:\\mod\\SOR22 Felix\\SOR22 Felix Arms Custom\\source\\archive\\Sor22_Felix_Collection\\localization\\en-us.json"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "JsonResource",
+      "cookingPlatform": "PLATFORM_None",
+      "root": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "localizationPersistenceOnScreenEntries",
+          "entries": [
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "SOR-22 Felix Arms Custom",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "MC_gun_name"
+            },
+            {
+              "$type": "localizationPersistenceOnScreenEntry",
+              "femaleVariant": "SOR-22 modified with Felix Arms XR Series kit.",
+              "maleVariant": "",
+              "primaryKey": "0",
+              "secondaryKey": "MC_gun_description"
+            }
+          ]
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}

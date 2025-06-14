@@ -41,6 +41,7 @@ base\weapons\firearms\rifle_precision\midnight_sor22\entities\meshes\sor22_felix
 base\weapons\firearms\rifle_precision\midnight_sor22\entities\meshes\sor22_felix_stock_decal.mesh
 base\weapons\firearms\rifle_precision\midnight_sor22\entities\meshes\sor22_felix_stock.mesh
 base\weapons\firearms\rifle_precision\midnight_sor22\entities\meshes\tex.xbm
+base\weapons\firearms\rifle_precision\midnight_sor22\entities\meshes\textures\sor22_felix_base_copy.mlsetup
 base\weapons\firearms\rifle_precision\midnight_sor22\entities\meshes\textures\sor22_felix_base.mlsetup
 base\weapons\firearms\rifle_precision\midnight_sor22\entities\meshes\textures\sor22_felix_mag.mlsetup
 base\weapons\firearms\rifle_precision\midnight_sor22\entities\meshes\textures\sor22_felix_receiver.mlsetup
